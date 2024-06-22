@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mccalculator",
+  "version": "${version}",
+  "name": "McCalculator",
+  "description": "An in-game calculator for convenient Minecraft specific calculations",
+  "authors": ["ItsSunnyMonster"],
+  "contact": {
+    "homepage": "https://github.com/ItsSunnyMonster/McCalculator",
+    "issues": "https://github.com/ItsSunnyMonster/McCalculator/issues",
+    "sources": "https://github.com/ItsSunnyMonster/McCalculator",
+    "repo": "https://github.com/ItsSunnyMonster/McCalculator"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/mccalculator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "co.sunnymonster.mccalculator.client.McCalculatorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
